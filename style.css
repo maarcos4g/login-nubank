@@ -25,7 +25,7 @@ main {
   padding: 30px 45px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 80px;
 }
 
 span {
@@ -42,11 +42,16 @@ form {
 }
 
 input {
-  border-color: gray;
+  border-color: red;
   border-width: 0 0 1px;
-  color: black;
+  color: red;
   font-size: 16px;
   outline: none;
+  padding-bottom: 10px;
+}
+
+input::placeholder {
+  color: red;
 }
 
 button {
